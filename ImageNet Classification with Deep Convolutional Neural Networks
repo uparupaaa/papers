@@ -1,0 +1,15 @@
+トロント大学が2010年のimagenet contestで圧倒的な記録を出した時の論文
+
+・RLN・重なりpooling
+・ReLU
+・DataAugumantation + dropout
+・GPU並列化
+
+＃GPU並列化
+inputしたデータを分けて別々のGPUで計算
+あとで繋ぎ合わせる
+
+・一つのGPUが計算するデータ量が減少したことで過学習減少
+・GPUごとに異なる特徴を学習しやすくなった
+・不要な結合が減少で精度向上
+
